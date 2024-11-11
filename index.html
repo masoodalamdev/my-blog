@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">My Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <main class="content">
+        <h1>Welcome to My Blog</h1>
+        <p>This is the homepage of my responsive blog website.</p>
+        <div class="blog-container">
+
+        <div class="blog-card">
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ab pariatur atque enim ex in deserunt voluptas quaerat inventore dolores itaque </p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card">
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ab pariatur atque enim ex in deserunt voluptas quaerat inventore dolores itaque </p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card">
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ab pariatur atque enim ex in deserunt voluptas quaerat inventore dolores itaque </p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card">
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ab pariatur atque enim ex in deserunt voluptas quaerat inventore dolores itaque </p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card">
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ab pariatur atque enim ex in deserunt voluptas quaerat inventore dolores itaque </p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card">
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ab pariatur atque enim ex in deserunt voluptas quaerat inventore dolores itaque </p>
+            <button>Read More</button>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+    
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
